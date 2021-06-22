@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.movie-card {
+  max-width: 500px;
+  max-height: fit-content;
+  border: transparent;
+}
+
+.movie-image {
+  width: 100%;
+  height: 293px;
+  border-radius: 2.5px;
+}
+
+.movie-runtime-released {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-aftergenre {
+  display: flex;
+  justify-content: space-between;
+}
